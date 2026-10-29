@@ -1,5 +1,5 @@
 # TrackOps 🚀
-### Production-Grade Retail, Inventory & Accrual Accounting System for Comic Stalls
+### Production-Grade Retail, Inventory & Accrual Accounting System for small businesses
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
