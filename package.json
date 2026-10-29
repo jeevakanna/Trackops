@@ -1,0 +1,70 @@
+{
+  "name": "trackops",
+  "version": "1.0.0",
+  "description": "Production-grade Point-of-Sale, Inventory Tracking, and Accrual-Aware Accounting System for Comic Stalls & Pop-Culture Retail",
+  "author": "jeevakanna <jeevakanna1244@gmail.com> (https://github.com/jeevakanna)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeevakanna/trackops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeevakanna/trackops/issues"
+  },
+  "homepage": "https://github.com/jeevakanna/trackops#readme",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "point-of-sale",
+    "pos",
+    "inventory-management",
+    "accounting",
+    "cogs",
+    "retail",
+    "react",
+    "express",
+    "postgresql",
+    "typescript",
+    "tailwind-css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "server": "tsx server/index.ts",
+    "dev:all": "concurrently -k -p \"[{name}]\" -n \"server,vite\" -c \"cyan.bold,magenta.bold\" \"npm run server\" \"npm run dev\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "tsx server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test:ui": "tsx tests/test_ui.ts",
+    "test:cr002": "tsx tests/test_cr002.ts"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "material-symbols": "^0.48.0",
+    "pg": "^8.23.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^10.0.6",
+    "playwright": "^1.64.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}
