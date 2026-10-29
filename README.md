@@ -10,7 +10,7 @@
 [![Playwright](https://img.shields.io/badge/Playwright-1.64.1-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-TrackOps is an offline-capable, high-throughput retail management and operational suite designed specifically for comic book stalls, pop-culture conventions, pop-up stalls, and independent merchandise retailers. It bridges the gap between chaotic on-the-floor point-of-sale checkout and rigorous, accrual-aware financial accounting.
+TrackOps is an offline-capable, high-throughput retail management and operational suite designed specifically for small businesses . It bridges the gap between chaotic on-the-floor point-of-sale checkout and rigorous, accrual-aware financial accounting.
 
 ---
 
